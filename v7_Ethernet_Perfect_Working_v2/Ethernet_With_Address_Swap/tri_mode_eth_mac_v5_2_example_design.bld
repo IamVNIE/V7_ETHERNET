@@ -1,0 +1,118 @@
+Release 14.1 ngdbuild P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -filter
+iseconfig/filter.filter -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+tri_mode_eth_mac_v5_2_example_design.ucf -p xc7vx485t-ffg1761-2
+tri_mode_eth_mac_v5_2_example_design.ngc
+tri_mode_eth_mac_v5_2_example_design.ngd
+
+Reading NGO file "C:/Users/VNIE-RESEARCH/Google Drive/v-7 Interface
+Git/Project_Files/Ethernet_Try1/tri_mode_eth_mac_v5_2_example_design.ngc" ...
+Loading design module "C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface
+Git\Project_Files\Ethernet_Try1/gig_eth_pcs_pma_v11_2.ngc"...
+Loading design module "C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface
+Git\Project_Files\Ethernet_Try1/tri_mode_eth_mac_v5_2.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"tri_mode_eth_mac_v5_2_example_design.ucf" ...
+INFO:coreutil - Design Linking license for component <tri_mode_eth_mac> found.
+   This license does not allow you to generate bitstreams for designs that
+   incorporate this component. You may generate functional simulation netlists,
+   but you may not evaluate this component in hardware.
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Design Linking license for component <tri_mode_eth_mac> found.
+   This license does not allow you to generate bitstreams for designs that
+   incorporate this component. You may generate functional simulation netlists,
+   but you may not evaluate this component in hardware.
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - Constraint <NET "gtrefclk" TNM_NET = "gtrefclk";>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(64)] was not distributed to the
+   output pin TXOUTCLK of block
+   core_wrapper/transceiver_inst/gtwizard_inst/gt0_GTWIZARD_i/gtxe2_i because
+   the signal path to this output pin depends upon block attribute settings.
+   Constraint distribution does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gtrefclk" TNM_NET = "gtrefclk";>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(64)] was not distributed to the
+   output pin RXOUTCLK of block
+   core_wrapper/transceiver_inst/gtwizard_inst/gt0_GTWIZARD_i/gtxe2_i because
+   the signal path to this output pin depends upon block attribute settings.
+   Constraint distribution does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC "TS_glbl_rst" = FROM
+   "clock_generator_clkout0" TO "clock_generator_clkout1" TIG;>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(148)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout0'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC "TS_glbl_rst" = FROM
+   "clock_generator_clkout0" TO "clock_generator_clkout1" TIG;>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(148)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout1'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMEGRP "ffs_except_axi"        = FFS
+   EXCEPT "clock_generator_clkout1" "mdio_logic";>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(290)]: Unable to find an active
+   'TNM' or 'TimeGrp' constraint named 'clock_generator_clkout1'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC "TS_config_to_all"      =
+   FROM "clock_generator_clkout1" TO "ffs_except_axi" TIG;>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(291)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout1'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC "TS_stats_ref_to_host"  =
+   FROM "stats_ref_to_host" TO "clock_generator_clkout1" 8000 ps DATAPATHONLY;>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(316)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout1'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC "TS_stats_addr"         =
+   FROM "clock_generator_clkout1" TO "stats_addr" 8000 ps DATAPATHONLY;>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(320)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout1'.
+
+WARNING:ConstraintSystem:3 - Constraint <TIMESPEC "TS_mdio"              =
+   PERIOD "mdio_logic" "TS_clock_generator_clkout1" * 40 PRIORITY 0;>
+   [tri_mode_eth_mac_v5_2_example_design.ucf(348)]: This constraint will be
+   ignored because the relative clock constraint named
+   'TS_clock_generator_clkout1' was not found.
+
+INFO:ConstraintSystem:178 - TNM 'txoutclk', used in period specification
+   'TS_txoutclk', was traced into MMCME2_ADV instance mmcm_adv_inst. The
+   following new TNM groups and period specifications were generated at the
+   MMCME2_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_clkout1 = PERIOD "clkout1" TS_txoutclk / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'txoutclk', used in period specification
+   'TS_txoutclk', was traced into MMCME2_ADV instance mmcm_adv_inst. The
+   following new TNM groups and period specifications were generated at the
+   MMCME2_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clkout0 = PERIOD "clkout0" TS_txoutclk HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   9
+
+Total memory usage is 262952 kilobytes
+
+Writing NGD file "tri_mode_eth_mac_v5_2_example_design.ngd" ...
+Total REAL time to NGDBUILD completion:  15 sec
+Total CPU time to NGDBUILD completion:   15 sec
+
+Writing NGDBUILD log file "tri_mode_eth_mac_v5_2_example_design.bld"...

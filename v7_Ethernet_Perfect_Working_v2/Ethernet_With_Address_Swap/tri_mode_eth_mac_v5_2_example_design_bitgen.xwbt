@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_example_design.ncd
+OUTFILE=C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_example_design.bit
+FAMILY=Virtex7
+PART=xc7vx485t-2ffg1761
+WORKINGDIR=C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1
+LICENSE=ISE
+USER_INFO=174150314_1777501427_210585070_223

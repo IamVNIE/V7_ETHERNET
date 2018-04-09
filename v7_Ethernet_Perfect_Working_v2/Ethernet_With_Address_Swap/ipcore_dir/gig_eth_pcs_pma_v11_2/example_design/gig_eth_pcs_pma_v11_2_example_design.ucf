@@ -1,0 +1,97 @@
+# This value should be modified to match your device
+CONFIG PART = xc7v585t-ffg1761-1;
+
+
+#***********************************************************
+# The following constraints target the Transceiver Physical*
+# Interface which is instantiated in the Example Design.   *
+#***********************************************************
+
+#-----------------------------------------------------------
+# Clock source used for the IDELAY Controller (if present) -
+# and for the transceiver reset circuitry                  -
+#-----------------------------------------------------------
+
+NET "independent_clock" TNM_NET = "independent_clock";
+TIMESPEC "ts_independent_clock" = PERIOD "independent_clock" 5000 ps HIGH 50 %;
+
+
+#-----------------------------------------------------------
+# PCS/PMA Clock period Constraints: please do not relax    -
+#-----------------------------------------------------------
+
+NET "gtrefclk" TNM_NET = "gtrefclk";
+TIMESPEC "ts_gtrefclk" = PERIOD "gtrefclk" 8 ns HIGH 50 %;
+
+NET "txoutclk" TNM_NET = "txoutclk";
+TIMESPEC "TS_txoutclk" = PERIOD "txoutclk" 16 ns HIGH 50 %;
+
+
+#-----------------------------------------------------------
+# Transceiver I/O placement:                               -
+#-----------------------------------------------------------
+
+# Place the transceiver components, chosen for this example design
+# *** These values should be modified according to your specific design ***
+#INST "gtrefclk_p" LOC = "AK8";
+#INST "gtrefclk_n" LOC = "AK7";
+INST "core_wrapper?transceiver_inst?gtwizard_inst?gt0_gtwizard_i?gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y1";
+
+
+#-----------------------------------------------------------
+# Fabric Rx Elastic Buffer Timing Constraints:             -
+#-----------------------------------------------------------
+
+# Clock period for the recovered Rx clock
+NET "core_wrapper/transceiver_inst/RXRECCLK" TNM_NET = "rxrecclk";
+TIMESPEC "ts_rxrecclk" = PERIOD "rxrecclk" 8 ns;
+
+# Identify clock domain crossing registers
+INST "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/wr_addr_gray*" TNM = "wr_graycode";
+INST "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_addr_gray*" TNM = "rd_graycode";
+
+# Control Gray Code delay and skew across clock boundary
+TIMESPEC "ts_rx_skew_control1" = FROM "wr_graycode" TO "FFS" 14 ns DATAPATHONLY;
+TIMESPEC "ts_rx_skew_control2" = FROM "rd_graycode" TO "FFS" 14 ns DATAPATHONLY;
+
+# Constrain between Distributed Memory (output data) and the 1st set of flip-flops
+INST "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data*"  TNM = "fifo_read";
+TIMESPEC "ts_ram_read_false_path" = FROM "RAMS" TO "fifo_read"  6 ns DATAPATHONLY;
+
+
+#***********************************************************
+# The following constraints target the GMII implemented in *
+# the Example Design.                                      *
+#***********************************************************
+# The GMII is intended to be an internal interface.        *
+# The GMII signals should be connected directly to user    *
+# logic and all of the following constraints in this file  *
+# should be removed.                                       *
+#***********************************************************
+
+
+#-----------------------------------------------------------
+# Fast Skew maximises output setup and hold timing         -
+#-----------------------------------------------------------
+INST "gmii_rxd<?>"      SLEW = FAST;
+INST "gmii_rx_dv"       SLEW = FAST;
+INST "gmii_rx_er"       SLEW = FAST;
+
+
+#-----------------------------------------------------------
+# GMII Transmitter Constraints:  place flip-flops in IOB   -
+#-----------------------------------------------------------
+INST "gmii_txd_int*"  IOB = true;
+INST "gmii_tx_en_int" IOB = true;
+INST "gmii_tx_er_int" IOB = true;
+
+
+#-----------------------------------------------------------
+# GMII Receiver Constraints:  place flip-flops in IOB      -
+#-----------------------------------------------------------
+INST "gmii_rxd*"  IOB = true;
+INST "gmii_rx_dv" IOB = true;
+INST "gmii_rx_er" IOB = true;
+
+
+

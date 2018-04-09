@@ -1,0 +1,15 @@
+verilog work ../example_design/sync_block.v
+verilog work ../example_design/reset_sync.v
+verilog work ../example_design/transceiver/gtwizard_gt.v
+verilog work ../example_design/transceiver/gtwizard.v
+verilog work ../example_design/transceiver/transceiver.v
+verilog work ../example_design/sgmii_adapt/johnson_cntr.v
+verilog work ../example_design/sgmii_adapt/clk_gen.v
+verilog work ../example_design/sgmii_adapt/rx_rate_adapt.v
+verilog work ../example_design/sgmii_adapt/tx_rate_adapt.v
+verilog work ../example_design/sgmii_adapt/sgmii_adapt.v
+verilog work ../example_design/transceiver/rx_elastic_buffer.v
+verilog work ../example_design/gig_eth_pcs_pma_v11_2_mod.v
+verilog work ../example_design/gig_eth_pcs_pma_v11_2_block.v
+verilog work ../example_design/gig_eth_pcs_pma_v11_2_example_design.v
+

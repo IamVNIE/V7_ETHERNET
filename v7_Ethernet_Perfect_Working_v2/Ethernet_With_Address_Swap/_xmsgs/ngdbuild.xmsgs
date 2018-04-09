@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Design Linking license for component &lt;tri_mode_eth_mac&gt; found. This license does not allow you to generate bitstreams for designs that incorporate this component. You may generate functional simulation netlists, but you may not evaluate this component in hardware.
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Design Linking license for component &lt;tri_mode_eth_mac&gt; found. This license does not allow you to generate bitstreams for designs that incorporate this component. You may generate functional simulation netlists, but you may not evaluate this component in hardware.
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;gtrefclk&quot; TNM_NET = &quot;gtrefclk&quot;;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(64)] was not distributed to the output pin TXOUTCLK of block core_wrapper/transceiver_inst/gtwizard_inst/gt0_GTWIZARD_i/gtxe2_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;gtrefclk&quot; TNM_NET = &quot;gtrefclk&quot;;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(64)] was not distributed to the output pin RXOUTCLK of block core_wrapper/transceiver_inst/gtwizard_inst/gt0_GTWIZARD_i/gtxe2_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_glbl_rst&quot; = FROM &quot;clock_generator_clkout0&quot; TO &quot;clock_generator_clkout1&quot; TIG;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(148)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TimeGrp&apos; or &apos;TNM&apos; or &apos;TPSync&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">clock_generator_clkout0</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_glbl_rst&quot; = FROM &quot;clock_generator_clkout0&quot; TO &quot;clock_generator_clkout1&quot; TIG;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(148)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TimeGrp&apos; or &apos;TNM&apos; or &apos;TPSync&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">clock_generator_clkout1</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP &quot;ffs_except_axi&quot;        = FFS EXCEPT &quot;clock_generator_clkout1&quot; &quot;mdio_logic&quot;;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(290)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">clock_generator_clkout1</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_config_to_all&quot;      = FROM &quot;clock_generator_clkout1&quot; TO &quot;ffs_except_axi&quot; TIG;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(291)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TimeGrp&apos; or &apos;TNM&apos; or &apos;TPSync&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">clock_generator_clkout1</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_stats_ref_to_host&quot;  = FROM &quot;stats_ref_to_host&quot; TO &quot;clock_generator_clkout1&quot; 8000 ps DATAPATHONLY;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(316)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TimeGrp&apos; or &apos;TNM&apos; or &apos;TPSync&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">clock_generator_clkout1</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_stats_addr&quot;         = FROM &quot;clock_generator_clkout1&quot; TO &quot;stats_addr&quot; 8000 ps DATAPATHONLY;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(320)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TimeGrp&apos; or &apos;TNM&apos; or &apos;TPSync&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">clock_generator_clkout1</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="3" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_mdio&quot;              = PERIOD &quot;mdio_logic&quot; &quot;TS_clock_generator_clkout1&quot; * 40 PRIORITY 0;&gt; [tri_mode_eth_mac_v5_2_example_design.ucf(348)]</arg>: This constraint will be ignored because the relative clock constraint named &apos;<arg fmt="%s" index="2">TS_clock_generator_clkout1</arg>&apos; was not found.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">txoutclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_txoutclk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clkout1 = PERIOD &quot;clkout1&quot; TS_txoutclk / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">txoutclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_txoutclk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clkout0 = PERIOD &quot;clkout0&quot; TS_txoutclk HIGH 50%&gt;</arg>
+</msg>
+
+</messages>
+

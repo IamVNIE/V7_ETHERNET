@@ -1,0 +1,1235 @@
+Release 14.1 Map P.15xf (nt64)
+Xilinx Mapping Report File for Design 'tri_mode_eth_mac_v5_2_example_design'
+
+Design Information
+------------------
+Command Line   : map -filter "C:/Users/VNIE-RESEARCH/Google Drive/v-7 Interface
+Git/Project_Files/Ethernet_Try1/iseconfig/filter.filter" -intstyle ise -p
+xc7vx485t-ffg1761-2 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication
+off -r 4 -mt 2 -ir off -pr off -lc off -power off -o
+tri_mode_eth_mac_v5_2_example_design_map.ncd
+tri_mode_eth_mac_v5_2_example_design.ngd
+tri_mode_eth_mac_v5_2_example_design.pcf 
+Target Device  : xc7vx485t
+Target Package : ffg1761
+Target Speed   : -2
+Mapper Version : virtex7 -- $Revision: 1.55 $
+Mapped Date    : Tue Oct 07 05:48:36 2014
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    2
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,659 out of 607,200    1%
+    Number used as Flip Flops:               3,659
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      3,159 out of 303,600    1%
+    Number used as logic:                    2,659 out of 303,600    1%
+      Number using O6 output only:           1,765
+      Number using O5 output only:             175
+      Number using O5 and O6:                  719
+      Number used as ROM:                        0
+    Number used as Memory:                     298 out of 130,800    1%
+      Number used as Dual Port RAM:            246
+        Number using O6 output only:           246
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Single Port RAM:            8
+        Number using O6 output only:             8
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Shift Register:            44
+        Number using O6 output only:            40
+        Number using O5 output only:             0
+        Number using O5 and O6:                  4
+    Number used exclusively as route-thrus:    202
+      Number with same-slice register load:    189
+      Number with same-slice carry load:        13
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,512 out of  75,900    1%
+  Number of LUT Flip Flop pairs used:        4,048
+    Number with an unused Flip Flop:         1,011 out of   4,048   24%
+    Number with an unused LUT:                 889 out of   4,048   21%
+    Number of fully used LUT-FF pairs:       2,148 out of   4,048   53%
+    Number of unique control sets:             191
+    Number of slice register sites lost
+      to control set restrictions:             623 out of 607,200    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        23 out of     700    3%
+    Number of LOCed IOBs:                       22 out of      23   95%
+    Number of bonded IPADs:                      4
+      Number of LOCed IPADs:                     4 out of       4  100%
+    Number of bonded OPADs:                      2
+      Number of LOCed OPADs:                     2 out of       2  100%
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                  0 out of   1,030    0%
+  Number of RAMB18E1/FIFO18E1s:                  4 out of   2,060    1%
+    Number using RAMB18E1 only:                  4
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      5 out of      32   15%
+    Number used as BUFGs:                        5
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     700    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     700    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     700    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     700    0%
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      56    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      56    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of     168    0%
+  Number of BUFRs:                               0 out of      56    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of   2,800    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      1 out of      56    1%
+  Number of GTXE2_COMMONs:                       0 out of      14    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of      14    0%
+  Number of IN_FIFOs:                            0 out of      56    0%
+  Number of MMCME2_ADVs:                         1 out of      14    7%
+  Number of OUT_FIFOs:                           0 out of      56    0%
+  Number of PCIE_2_1s:                           0 out of       4    0%
+  Number of PHASER_REFs:                         0 out of      14    0%
+  Number of PHY_CONTROLs:                        0 out of      14    0%
+  Number of PLLE2_ADVs:                          0 out of      14    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+  Number of RPM macros:           99
+Average Fanout of Non-Clock Nets:                3.91
+
+Peak Memory Usage:  1601 MB
+Total REAL time to MAP completion:  1 mins 48 secs 
+Total CPU time to MAP completion (all processors):   1 mins 51 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:702 - PAD symbol "clk_in_n" is not constrained (LOC) to a specific
+   location.
+WARNING:LIT:701 - PAD symbol "gtrefclk_p" has an undefined IOSTANDARD.
+
+Section 3 - Informational
+-------------------------
+INFO:Map:284 - Map is running with the multi-threading option on. Map currently
+   supports the use of up to 2 processors. Based on the the user options and
+   machine load, Map will use 2 processors during this run.
+INFO:LIT:243 - Logical network s_axi_awaddr<11> has no load.
+INFO:LIT:395 - The above info message is repeated 116 more times for the
+   following (max. 5 shown):
+   s_axi_araddr<11>,
+   core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rxrundisp_usr,
+   core_wrapper/transceiver_inst/reclock_txreset/reset_stage2,
+   basic_pat_gen/axi_pipe/RAM64X1D_inst_last/SPO,
+   basic_pat_gen/axi_pipe/[7].RAM64X1D_inst/SPO
+   To see the details of these info messages, please use the -detail switch.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.970 Volts. (default - Range: 0.970 to
+   1.030 Volts)
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  94 block(s) removed
+  49 block(s) optimized away
+  85 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "s_axi_awaddr<11>" is loadless and has been removed.
+ Loadless block "axi_lite_controller/s_axi_awaddr_11" (SFF) removed.
+  The signal "axi_lite_controller/GND_7_o_GND_7_o_mux_105_OUT<11>" is loadless and
+has been removed.
+   Loadless block "axi_lite_controller/Mmux_GND_7_o_GND_7_o_mux_105_OUT31" (ROM)
+removed.
+    The signal "axi_lite_controller/addr<11>" is loadless and has been removed.
+     Loadless block "axi_lite_controller/addr_11" (SFF) removed.
+The signal "s_axi_araddr<11>" is loadless and has been removed.
+ Loadless block "axi_lite_controller/s_axi_araddr_11" (SFF) removed.
+  The signal "axi_lite_controller/GND_7_o_GND_7_o_mux_86_OUT<11>" is loadless and
+has been removed.
+   Loadless block "axi_lite_controller/Mmux_GND_7_o_GND_7_o_mux_86_OUT31" (ROM)
+removed.
+The signal "core_wrapper/transceiver_inst/reclock_txreset/reset_stage2" is
+loadless and has been removed.
+ Loadless block "core_wrapper/transceiver_inst/reclock_txreset/reset_sync2" (FF)
+removed.
+  The signal "core_wrapper/transceiver_inst/reclock_txreset/reset_stage1" is
+loadless and has been removed.
+   Loadless block "core_wrapper/transceiver_inst/reclock_txreset/reset_sync1" (FF)
+removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[14].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[15].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[29].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[30].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[31].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[32].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[33].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[34].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[35].DIST_RAM"
+(RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+STATGEN.statistics_counters/shift_ram_count_gen[0].shift_ram_count_i" (SRL16E)
+removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[0].header_compare_dist_ram" (RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[1].header_compare_dist_ram" (RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[2].header_compare_dist_ram" (RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[3].header_compare_dist_ram" (RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[4].header_compare_dist_ram" (RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[5].header_compare_dist_ram" (RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[6].header_compare_dist_ram" (RAM64X1D) removed.
+Loadless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+addr_filter_top/address_filter_inst/addr_regs.unicast_address_compare/byte_wide_
+ram[7].header_compare_dist_ram" (RAM64X1D) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_REMOTE_FAULT" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_REMOTE_FAULT_glue_set" (ROM) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_REMOTE_FAULT_glue_set" is sourceless and has been removed.
+   Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_REMOTE_FAULT" (SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/STATUS_VECTOR_12
+" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_SPEED<1>" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_SPEED<0>" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/BASEX_REMOTE_FAULT<1>" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_LP_ADV_ABILITY_INT_16" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RXNOTINTABLE_REG
+" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RXDISPERR_REG"
+is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/RUDI_INVALID" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RUDI_I"
+is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RUDI_C"
+is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_AN_COMPLETE" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_AN_COMPLETE_glue_set" (ROM) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_AN_COMPLETE_glue_set" is sourceless and has been removed.
+   Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_AN_COMPLETE" (SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RXNOTINTABLE_SRL
+" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RXNOTINTABLE_REG
+" (FF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RXDISPERR_SRL"
+is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RXDISPERR_REG"
+(FF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PWR_17_o_STATE[3]_equal_63_o" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE_3" (SFF) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE<3>" is sourceless and has been removed.
+   Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/_n0545_SW0" (ROM) removed.
+    The signal "core_wrapper/gig_eth_pcs_pma_core/N4" is sourceless and has been
+removed.
+     Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/_n0545" (ROM) removed.
+      The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/_n0545" is sourceless and has been removed.
+       Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/BASEX_REMOTE_FAULT_1" (SFF) removed.
+       Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_LP_ADV_ABILITY_INT_16" (SFF) removed.
+       Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_LP_ADV_ABILITY_INT_13" (SFF) removed.
+        The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/MR_LP_ADV_ABILITY_INT_13" is sourceless and has been removed.
+       Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/_n0552_inv1" (ROM) removed.
+        The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/_n0552_inv" is sourceless and has been removed.
+         Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_SPEED_1" (FF) removed.
+         Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_SPEED_0" (FF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/STATE<2>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE_2" (SFF) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE<2>" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/STATE<1>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE_1" (SFF) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE<1>" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/STATE<0>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE_0" (SFF) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PREVIOUS_STATE<0>" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_SPEED[1]_PWR_17_o_mux_87_OUT<1>" is sourceless and has been
+removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_SPEED[1]_PWR_17_o_mux_87_OUT<0>" is sourceless and has been
+removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/RX_RUDI_INVALID_DELAY<1>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/RUDI_INVALID" (SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_PHY_MODE_RX_CONFIG_REG[15]_AND_47_o" is sourceless and has
+been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RESTART_AN_SET"
+is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/RX_RUDI_INVALID_DELAY<0>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/RX_RUDI_INVALID_DELAY_1" (SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G<1>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G_2" (SFF) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G<2>" is sourceless and has been removed.
+   Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G[1]_IDLE_REG[2]_OR_194_o1" (ROM) removed.
+    The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G[1]_IDLE_REG[2]_OR_194_o" is sourceless and has been removed.
+     Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RUDI_I"
+(SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G<0>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G_1" (SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG<2>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG_3" (SFF) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG<3>" is sourceless and has been removed.
+   Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG[0]_RX_CONFIG_VALID_REG[3]_OR_193_o<0>1" (ROM) removed.
+    The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG[0]_RX_CONFIG_VALID_REG[3]_OR_193_o" is sourceless and has been
+removed.
+     Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RUDI_C"
+(SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG<1>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG_2" (SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG<0>" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG_1" (SFF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RESTART_AN_EN"
+is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RESTART_AN_EN_rs
+tpot" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/GENERATE_REMOTE_FAULT_rstpot" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/GENERATE_REMOTE_FAULT" (FF) removed.
+  The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/GENERATE_REMOTE_FAULT" is sourceless and has been removed.
+The signal "core_wrapper/gig_eth_pcs_pma_core/N55" is sourceless and has been
+removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/GENERATE_REMOTE_FAULT_rstpot" (ROM) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/Mshreg_STATUS_VE
+CTOR_12" is sourceless and has been removed.
+ Sourceless block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/STATUS_VECTOR_12
+" (FF) removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/DELAY_RXNOTINTAB
+LE/CE" is sourceless and has been removed.
+The signal
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/DELAY_RXDISPERR/
+CE" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+INTCGEN.intc/irq" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+G_AXI_SHIM.tx_axi_shim/next_tx_state[3]_ignore_packet_OR_47_o4" is sourceless
+and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+TXGEN/INT_IFG_DEL_EN" is sourceless and has been removed.
+ Sourceless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+TXGEN/TX_SM1/INT_IFG_DEL_EN" (SFF) removed.
+  The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+TXGEN/TX_SM1/INT_IFG_DEL_EN" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+TXGEN/TX_SM1/INT_IFG_DELAY<1>" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+TXGEN/TX_SM1/INT_IFG_DELAY<0>" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+STATGEN.statistics_counters/bus2ip_cs_int_return_error_OR_399_o" is sourceless
+and has been removed.
+ Sourceless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+STATGEN.statistics_counters/ip2bus_error" (SFF) removed.
+  The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+STATGEN.statistics_counters/ip2bus_error" is sourceless and has been removed.
+   Sourceless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+ipic_mux_inst/ip2bus_error_reg" (SFF) removed.
+    The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+ipic_mux_inst/ip2bus_error_reg" is sourceless and has been removed.
+     Sourceless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+ipic_mux_inst/ip2bus_error_rstpot" (ROM) removed.
+      The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+ipic_mux_inst/ip2bus_error_rstpot" is sourceless and has been removed.
+       Sourceless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+ipic_mux_inst/ip2bus_error" (FF) removed.
+        The signal "trimac_fifo_block/trimac_block/ip2bus_error" is sourceless and has
+been removed.
+         Sourceless block
+"trimac_fifo_block/trimac_block/axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s
+_axi_rresp_reg_1_rstpot" (ROM) removed.
+          The signal
+"trimac_fifo_block/trimac_block/axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s
+_axi_rresp_reg_1_rstpot" is sourceless and has been removed.
+           Sourceless block
+"trimac_fifo_block/trimac_block/axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s
+_axi_rresp_reg_1" (SFF) removed.
+            The signal "s_axi_rresp<1>" is sourceless and has been removed.
+         Sourceless block
+"trimac_fifo_block/trimac_block/axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s
+_axi_bresp_reg_1_rstpot" (ROM) removed.
+          The signal
+"trimac_fifo_block/trimac_block/axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s
+_axi_bresp_reg_1_rstpot" is sourceless and has been removed.
+           Sourceless block
+"trimac_fifo_block/trimac_block/axi4_lite_ipif/axi_lite_top/I_SLAVE_ATTACHMENT/s
+_axi_bresp_reg_1" (SFF) removed.
+            The signal "s_axi_bresp<1>" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+FLOW/sync_rx_duplex/data_sync1" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+FLOW/sync_tx_duplex/data_sync1" is sourceless and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+INTCGEN.intc/irq_rstpot" is sourceless and has been removed.
+ Sourceless block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+INTCGEN.intc/irq" (FF) removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rxrundisp_usr"
+is unused and has been removed.
+ Unused block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rxrundisp_usr" (SFF)
+removed.
+  The signal
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_reg[8]_rd_data_reg
+[24]_MUX_820_o" is unused and has been removed.
+   Unused block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/Mmux_rd_data_reg[8]_rd_dat
+a_reg[24]_MUX_820_o11" (ROM) removed.
+    The signal "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_reg<8>"
+is unused and has been removed.
+     Unused block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_reg_8" (SFF)
+removed.
+      The signal "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_8" is
+unused and has been removed.
+       Unused block "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_8"
+(SFF) removed.
+        The signal "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_ram<8>"
+is unused and has been removed.
+    The signal
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_reg<24>" is unused
+and has been removed.
+     Unused block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_reg_24" (SFF)
+removed.
+      The signal "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_24" is
+unused and has been removed.
+       Unused block "core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_24"
+(SFF) removed.
+        The signal
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data_ram<24>" is unused
+and has been removed.
+The signal
+"trimac_fifo_block/trimac_block/vector_decode/rx_statistics_vector_reg<26>" is
+unused and has been removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/DELAY_RXDISPERR/
+SRL16E" (SRL16E) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/DELAY_RXDISPERR/
+VCC" (ONE) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/DELAY_RXNOTINTAB
+LE/SRL16E" (SRL16E) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/DELAY_RXNOTINTAB
+LE/VCC" (ONE) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/GENERATE_REMOTE_FAULT_rstpot_SW0" (ROM) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/Mmux_SGMII_SPEED[1]_PWR_17_o_mux_87_OUT11" (ROM) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/Mmux_SGMII_SPEED[1]_PWR_17_o_mux_87_OUT21" (ROM) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/PWR_17_o_STATE[3]_equal_63_o1" (ROM) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/RX_RUDI_INVALID_DELAY_0" (SFF) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/SGMII_PHY_MODE_RX_CONFIG_REG[15]_AND_47_o1_INV_0" (BUF) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/STATE_STATE<0>1" (ROM) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/STATE_STATE<1>1" (ROM) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AUT
+O_NEGOTIATION/STATE_STATE<2>1" (ROM) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/Mshreg_STATUS_VE
+CTOR_12" (SRLC16E) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/IDLE_RE
+G_0" (SFF) removed.
+Unused block
+"core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RECEIVER/RX_CONF
+IG_VALID_REG_0" (SFF) removed.
+Unused block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[24].DIST_RAM"
+(RAM64X1D) removed.
+Unused block
+"core_wrapper/transceiver_inst/rx_elastic_buffer_inst/GEN_FIFO[8].DIST_RAM"
+(RAM64X1D) removed.
+Unused block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+INTCGEN.intc/irq_rstpot" (ROM) removed.
+Unused block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+STATGEN.statistics_counters/bus2ip_cs_int_return_error_OR_399_o1" (ROM) removed.
+Unused block
+"trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/
+TXGEN/INT_IFG_DEL_EN" (SFF) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+LUT6 		basic_pat_gen/axi_pat_check/[5].LUT6_inst
+   optimized to 0
+LUT6 		basic_pat_gen/axi_pat_check/[5].LUT6_swap_inst
+   optimized to 0
+LUT6 		basic_pat_gen/axi_pat_gen/[5].LUT6_inst
+   optimized to 0
+FDR
+		core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AU
+TO_NEGOTIATION/MR_RESTART_AN_SET_REG1
+   optimized to 0
+FDR
+		core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AU
+TO_NEGOTIATION/MR_RESTART_AN_SET_REG2
+   optimized to 0
+LUT2
+		core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/HAS_AUTO_NEG.AU
+TO_NEGOTIATION/XMIT_DATA1_SW0
+   optimized to 0
+FD
+		core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RESTART_AN_EN
+   optimized to 0
+FDR
+		core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RESTART_AN_EN_R
+EG
+   optimized to 0
+LUT3
+		core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RESTART_AN_EN_r
+stpot
+   optimized to 0
+FDR
+		core_wrapper/gig_eth_pcs_pma_core/U0/xst_options.gpcs_pma_inst/RESTART_AN_SET
+   optimized to 0
+GND 		core_wrapper/gig_eth_pcs_pma_core/XST_GND
+VCC 		core_wrapper/gig_eth_pcs_pma_core/XST_VCC
+FD
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/FLOW/sync_rx_duplex/data_sync
+   optimized to 0
+FD
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/FLOW/sync_rx_duplex/data_sync_reg
+   optimized to 0
+FD
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/FLOW/sync_tx_duplex/data_sync
+   optimized to 0
+FD
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/FLOW/sync_tx_duplex/data_sync_reg
+   optimized to 0
+LUT4
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/G_AXI_SHIM.tx_axi_shim/early_underrun_glue_set_SW1
+   optimized to 1
+LUT2
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/G_AXI_SHIM.tx_axi_shim/ignore_packet_glue_set_SW1
+   optimized to 1
+LUT5
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/G_AXI_SHIM.tx_axi_shim/next_tx_state[3]_ignore_packet_OR_47_o41
+   optimized to 0
+FDR
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/G_AXI_SHIM.tx_axi_shim/tx_state_FSM_FFd5
+   optimized to 0
+LUT4
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/G_AXI_SHIM.tx_axi_shim/tx_state_FSM_FFd7-In_SW0
+   optimized to 0
+LUT4
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/GND_36_o_GND_36_o_sub_12_OUT<3>1
+   optimized to 1
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/IFG_DELAY_HELD_0
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/IFG_DELAY_HELD_1
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_0
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_1
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_2
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_3
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_4
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_5
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_6
+   optimized to 0
+FDRE
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/INT_IFG_DELAY_7
+   optimized to 0
+INV
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/Msub_GND_36_o_GND_36_o_sub_12_OUT<7:0>_xor<2>11_INV_0
+LUT3
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/Msub_GND_36_o_GND_36_o_sub_12_OUT<7:0>_xor<4>11
+   optimized to 1
+LUT4
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/Msub_GND_36_o_GND_36_o_sub_12_OUT<7:0>_xor<5>11
+   optimized to 1
+LUT5
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/Msub_GND_36_o_GND_36_o_sub_12_OUT<7:0>_xor<6>11
+   optimized to 1
+LUT6
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/Msub_GND_36_o_GND_36_o_sub_12_OUT<7:0>_xor<7>1
+   optimized to 1
+LUT5
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/Msub_GND_36_o_GND_36_o_sub_12_OUT<7:0>_xor<7>111
+   optimized to 0
+LUT2
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/TXGEN/TX_SM1/Msub_GND_36_o_GND_36_o_sub_12_OUT<7:0>_xor<7>1_SW0
+   optimized to 0
+LUT3
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/addr_filter_top/address_filter_inst/special_pause_address[2].LUT3_special_pause
+_inst
+   optimized to 0
+LUT3
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/addr_filter_top/address_filter_inst/special_pause_address[3].LUT3_special_pause
+_inst
+   optimized to 0
+LUT3
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/addr_filter_top/address_filter_inst/special_pause_address[4].LUT3_special_pause
+_inst
+   optimized to 0
+LUT3
+		trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST
+/addr_filter_top/address_filter_inst/special_pause_address[5].LUT3_special_pause
+_inst
+   optimized to 0
+GND 		trimac_fifo_block/trimac_block/trimac_core/XST_GND
+VCC 		trimac_fifo_block/trimac_block/trimac_core/XST_VCC
+FDR 		trimac_fifo_block/trimac_block/vector_decode/rx_alignment_error_reg
+   optimized to 0
+FDRE 		trimac_fifo_block/trimac_block/vector_decode/rx_statistics_vector_reg_26
+   optimized to 0
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| activity_flash                     | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| activity_flashn                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| chk_tx_data                        | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| clk_in_n                           | IOB18            | INPUT     | LVDS                 | FALSE |          |      |              |          |          |
+| clk_in_p                           | IOB18            | INPUT     | LVDS                 | FALSE |          |      |              |          |          |
+| config_board                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| frame_error                        | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| frame_errorn                       | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| gen_tx_data                        | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| glbl_rst                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| gtrefclk_n                         | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| gtrefclk_p                         | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| linkup                             | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| mac_speed<0>                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| mac_speed<1>                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| mdc                                | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| mdio                               | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| pause_req_s                        | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| phy_resetn                         | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| reset_error                        | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| rx_statistics_s                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| rxn                                | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| rxp                                | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| serial_response                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| synchronization_done               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| tx_statistics_s                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| txn                                | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| txp                                | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| update_speed                       | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+axi_lite_reset_gen_axi_lite_reset_gen   
+chk_reset_gen_chk_reset_gen             
+core_wrapper/gig_eth_pcs_pma_core/hset  
+core_wrapper/sgmii_logic/resync_speed_100_core_wrapper/sgmii_logic/resync_speed_
+100
+core_wrapper/sgmii_logic/resync_speed_10_100_core_wrapper/sgmii_logic/resync_spe
+ed_10_100
+core_wrapper/sgmii_logic_gen_sync_reset_gen_sync_reset
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_rd_addrgray[0].sync
+_rd_addrgray_reclock_rd_addrgray[0].sync_rd_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_rd_addrgray[1].sync
+_rd_addrgray_reclock_rd_addrgray[1].sync_rd_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_rd_addrgray[2].sync
+_rd_addrgray_reclock_rd_addrgray[2].sync_rd_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_rd_addrgray[3].sync
+_rd_addrgray_reclock_rd_addrgray[3].sync_rd_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_rd_addrgray[4].sync
+_rd_addrgray_reclock_rd_addrgray[4].sync_rd_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_rd_addrgray[5].sync
+_rd_addrgray_reclock_rd_addrgray[5].sync_rd_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_wr_addrgray[0].sync
+_wr_addrgray_reclock_wr_addrgray[0].sync_wr_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_wr_addrgray[1].sync
+_wr_addrgray_reclock_wr_addrgray[1].sync_wr_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_wr_addrgray[2].sync
+_wr_addrgray_reclock_wr_addrgray[2].sync_wr_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_wr_addrgray[3].sync
+_wr_addrgray_reclock_wr_addrgray[3].sync_wr_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_wr_addrgray[4].sync
+_wr_addrgray_reclock_wr_addrgray[4].sync_wr_addrgray
+core_wrapper/transceiver_inst/rx_elastic_buffer_inst_reclock_wr_addrgray[5].sync
+_wr_addrgray_reclock_wr_addrgray[5].sync_wr_addrgray
+glbl_reset_gen_glbl_reset_gen           
+gtx_reset_gen_gtx_reset_gen             
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/F
+LOW/TX_PAUSE_sync_good_rx_sync_good_rx
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/F
+LOW_sync_rx_enable_sync_rx_enable
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/F
+LOW_sync_tx_enable_sync_tx_enable
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/I
+NTCGEN.intc_gen_sync[0].sync_request_gen_sync[0].sync_request
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[0].sync_accum_gray_
+i_accum_gray_resync[0].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[1].sync_accum_gray_
+i_accum_gray_resync[1].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[2].sync_accum_gray_
+i_accum_gray_resync[2].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[3].sync_accum_gray_
+i_accum_gray_resync[3].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[4].sync_accum_gray_
+i_accum_gray_resync[4].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[5].sync_accum_gray_
+i_accum_gray_resync[5].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[6].sync_accum_gray_
+i_accum_gray_resync[6].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_byte_counter_accum_gray_resync[7].sync_accum_gray_
+i_accum_gray_resync[7].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[0].sync_accum_g
+ray_i_accum_gray_resync[0].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[1].sync_accum_g
+ray_i_accum_gray_resync[1].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[2].sync_accum_g
+ray_i_accum_gray_resync[2].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[3].sync_accum_g
+ray_i_accum_gray_resync[3].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[4].sync_accum_g
+ray_i_accum_gray_resync[4].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[5].sync_accum_g
+ray_i_accum_gray_resync[5].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[6].sync_accum_g
+ray_i_accum_gray_resync[6].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_fragment_counter_accum_gray_resync[7].sync_accum_g
+ray_i_accum_gray_resync[7].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[0].sync_accum
+_gray_i_accum_gray_resync[0].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[1].sync_accum
+_gray_i_accum_gray_resync[1].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[2].sync_accum
+_gray_i_accum_gray_resync[2].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[3].sync_accum
+_gray_i_accum_gray_resync[3].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[4].sync_accum
+_gray_i_accum_gray_resync[4].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[5].sync_accum
+_gray_i_accum_gray_resync[5].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[6].sync_accum
+_gray_i_accum_gray_resync[6].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/rx_undersized_counter_accum_gray_resync[7].sync_accum
+_gray_i_accum_gray_resync[7].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[0].sync_accum_gray_
+i_accum_gray_resync[0].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[1].sync_accum_gray_
+i_accum_gray_resync[1].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[2].sync_accum_gray_
+i_accum_gray_resync[2].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[3].sync_accum_gray_
+i_accum_gray_resync[3].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[4].sync_accum_gray_
+i_accum_gray_resync[4].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[5].sync_accum_gray_
+i_accum_gray_resync[5].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[6].sync_accum_gray_
+i_accum_gray_resync[6].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters/tx_byte_counter_accum_gray_resync[7].sync_accum_gray_
+i_accum_gray_resync[7].sync_accum_gray_i
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_fast_statistic_control[0].fast_statistics_sync_inc_ve
+ctor_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_fast_statistic_control[1].fast_statistics_sync_inc_ve
+ctor_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_fast_statistic_control[2].fast_statistics_sync_inc_ve
+ctor_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_fast_statistic_control[3].fast_statistics_sync_inc_ve
+ctor_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control1[10].frame_size_stats1_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control1[4].frame_size_stats1_sync_inc
+_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control1[5].frame_size_stats1_sync_inc
+_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control1[6].frame_size_stats1_sync_inc
+_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control1[7].frame_size_stats1_sync_inc
+_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control1[8].frame_size_stats1_sync_inc
+_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control1[9].frame_size_stats1_sync_inc
+_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control2[11].frame_size_stats2_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control2[12].frame_size_stats2_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control2[13].frame_size_stats2_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control2[14].frame_size_stats2_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control2[15].frame_size_stats2_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control2[16].frame_size_stats2_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_frame_size_bin_control2[17].frame_size_stats2_sync_in
+c_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[18].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[19].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[20].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[21].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[22].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[23].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[24].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[25].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[26].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[27].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[28].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[29].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[30].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[31].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[32].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_general_statisic_control[33].general_statisics_sync_i
+nc_vector_sync_inc_vector
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_sync_request_sync_request
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/S
+TATGEN.statistics_counters_sync_response_sync_response
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/a
+ddr_filter_top/address_filter_inst_resync_promiscuous_mode_resync_promiscuous_mo
+de
+trimac_fifo_block/trimac_block/trimac_core/U0/trimac_top/TRI_SPEED.TRIMAC_INST/a
+ddr_filter_top/address_filter_inst_sync_update_sync_update
+trimac_fifo_block/user_side_FIFO/rx_fifo_i_resync_wr_store_frame_tog_resync_wr_s
+tore_frame_tog
+trimac_fifo_block/user_side_FIFO/rx_fifo_i_sync_rd_addr_tog_sync_rd_addr_tog
+trimac_fifo_block/user_side_FIFO/tx_fifo_i_resync_rd_tran_frame_tog_resync_rd_tr
+an_frame_tog
+trimac_fifo_block/user_side_FIFO/tx_fifo_i_resync_rd_txfer_tog_resync_rd_txfer_t
+og
+trimac_fifo_block/user_side_FIFO/tx_fifo_i_resync_wr_frame_in_fifo_resync_wr_fra
+me_in_fifo
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

@@ -1,0 +1,307 @@
+Release 14.1 par P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+VNIERESEARCHPC::  Tue Oct 07 05:50:26 2014
+
+par -filter "C:/Users/VNIE-RESEARCH/Google Drive/v-7 Interface
+Git/Project_Files/Ethernet_Try1/iseconfig/filter.filter" -w -intstyle ise -ol
+std -mt 4 tri_mode_eth_mac_v5_2_example_design_map.ncd
+tri_mode_eth_mac_v5_2_example_design.ncd
+tri_mode_eth_mac_v5_2_example_design.pcf 
+
+
+Constraints file: tri_mode_eth_mac_v5_2_example_design.pcf.
+Loading device for application Rf_Device from file '7vx485t.nph' in environment C:\Xilinx\14.1\ISE_DS\ISE\.
+   "tri_mode_eth_mac_v5_2_example_design" is an NCD, version 3.2, device xc7vx485t, package ffg1761, speed -2
+INFO:Par:469 - Although the Overall Effort Level (-ol) for this implementation has been set to Standard, Placer will run
+   at effort level High. To override this, please set the Placer Effort Level (-pl) to Standard.
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.970 Volts. (default - Range: 0.970 to 1.030 Volts)
+
+
+Device speed data version:  "ADVANCED 1.04 2012-04-23".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,659 out of 607,200    1%
+    Number used as Flip Flops:               3,659
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      3,159 out of 303,600    1%
+    Number used as logic:                    2,659 out of 303,600    1%
+      Number using O6 output only:           1,765
+      Number using O5 output only:             175
+      Number using O5 and O6:                  719
+      Number used as ROM:                        0
+    Number used as Memory:                     298 out of 130,800    1%
+      Number used as Dual Port RAM:            246
+        Number using O6 output only:           246
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Single Port RAM:            8
+        Number using O6 output only:             8
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Shift Register:            44
+        Number using O6 output only:            40
+        Number using O5 output only:             0
+        Number using O5 and O6:                  4
+    Number used exclusively as route-thrus:    202
+      Number with same-slice register load:    189
+      Number with same-slice carry load:        13
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,512 out of  75,900    1%
+  Number of LUT Flip Flop pairs used:        4,048
+    Number with an unused Flip Flop:         1,011 out of   4,048   24%
+    Number with an unused LUT:                 889 out of   4,048   21%
+    Number of fully used LUT-FF pairs:       2,148 out of   4,048   53%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of 607,200    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        23 out of     700    3%
+    Number of LOCed IOBs:                       22 out of      23   95%
+    Number of bonded IPADs:                      4
+      Number of LOCed IPADs:                     4 out of       4  100%
+    Number of bonded OPADs:                      2
+      Number of LOCed OPADs:                     2 out of       2  100%
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                  0 out of   1,030    0%
+  Number of RAMB18E1/FIFO18E1s:                  4 out of   2,060    1%
+    Number using RAMB18E1 only:                  4
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      5 out of      32   15%
+    Number used as BUFGs:                        5
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     700    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     700    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     700    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     700    0%
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      56    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      56    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of     168    0%
+  Number of BUFRs:                               0 out of      56    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of   2,800    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      1 out of      56    1%
+  Number of GTXE2_COMMONs:                       0 out of      14    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of      14    0%
+  Number of IN_FIFOs:                            0 out of      56    0%
+  Number of MMCME2_ADVs:                         1 out of      14    7%
+  Number of OUT_FIFOs:                           0 out of      56    0%
+  Number of PCIE_2_1s:                           0 out of       4    0%
+  Number of PHASER_REFs:                         0 out of      14    0%
+  Number of PHY_CONTROLs:                        0 out of      14    0%
+  Number of PLLE2_ADVs:                          0 out of      14    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+
+Overall effort level (-ol):   Standard 
+Router effort level (-rl):    Standard 
+
+PAR will use up to 4 processors
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+Starting Multi-threaded Router
+
+
+Phase  1  : 19912 unrouted;      REAL time: 39 secs 
+
+Phase  2  : 16765 unrouted;      REAL time: 41 secs 
+
+Phase  3  : 4154 unrouted;      REAL time: 44 secs 
+
+Phase  4  : 4154 unrouted; (Setup:0, Hold:141810, Component Switching Limit:0)     REAL time: 1 mins 3 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:136770, Component Switching Limit:0)     REAL time: 1 mins 6 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:136770, Component Switching Limit:0)     REAL time: 1 mins 6 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:136770, Component Switching Limit:0)     REAL time: 1 mins 6 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:136770, Component Switching Limit:0)     REAL time: 1 mins 6 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 7 secs 
+Total REAL time to Router completion: 1 mins 7 secs 
+Total CPU time to Router completion (all processors): 1 mins 14 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|            userclk2 | BUFGCTRL_X0Y3| No   |  980 |  0.608     |  1.971      |
++---------------------+--------------+------+------+------------+-------------+
+|             userclk | BUFGCTRL_X0Y2| No   |  278 |  0.681     |  2.113      |
++---------------------+--------------+------+------+------------+-------------+
+|core_wrapper/transce |              |      |      |            |             |
+|iver_inst/rxrecclk_b |              |      |      |            |             |
+|                  uf | BUFGCTRL_X0Y0| No   |   40 |  0.228     |  2.111      |
++---------------------+--------------+------+------+------------+-------------+
+|        clk_200_bufg |BUFGCTRL_X0Y31| No   |    4 |  0.288     |  1.814      |
++---------------------+--------------+------+------+------------+-------------+
+|       txoutclk_bufg | BUFGCTRL_X0Y1| No   |    1 |  0.000     |  1.879      |
++---------------------+--------------+------+------+------------+-------------+
+|            gtrefclk |         Local|      |    1 |  0.000     |  0.000      |
++---------------------+--------------+------+------+------------+-------------+
+|            clkfbout |         Local|      |    1 |  0.000     |  0.012      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clkout1 = PERIOD TIMEGRP "clkout1" TS_ | SETUP       |     1.144ns|     6.856ns|       0|           0
+  txoutclk / 2 HIGH 50%                     | HOLD        |     0.001ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clk_in_p = PERIOD TIMEGRP "clk_in_p" 5 | SETUP       |     2.804ns|     2.196ns|       0|           0
+   ns HIGH 50% INPUT_JITTER 0.05 ns         | HOLD        |     0.188ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clkout0 = PERIOD TIMEGRP "clkout0" TS_ | SETUP       |     2.887ns|    10.226ns|       0|           0
+  txoutclk HIGH 50%                         | HOLD        |     0.000ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  ts_ram_read_false_path = MAXDELAY FROM TI | SETUP       |     4.478ns|     1.522ns|       0|           0
+  MEGRP "RAMS" TO TIMEGRP "fifo_read" 6     | HOLD        |     0.464ns|            |       0|           0
+       ns DATAPATHONLY                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  ts_rxrecclk = PERIOD TIMEGRP "rxrecclk" 8 | SETUP       |     5.631ns|     2.369ns|       0|           0
+   ns HIGH 50%                              | HOLD        |     0.015ns|            |       0|           0
+                                            | MINPERIOD   |     4.970ns|     3.030ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_flow_rx_to_tx = MAXDELAY FROM TIMEGRP  | SETUP       |     5.286ns|     2.514ns|       0|           0
+  "flow_rx_to_tx" TO TIMEGRP "userclk2"     | HOLD        |     0.306ns|            |       0|           0
+       7.8 ns DATAPATHONLY                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_rx_fifo_rd_to_wr = MAXDELAY FROM TIMEG | SETUP       |     6.041ns|     1.759ns|       0|           0
+  RP "rx_fifo_rd_to_wr" TO TIMEGRP          | HOLD        |     0.120ns|            |       0|           0
+  "userclk2" 7.8 ns DATAPATHONLY            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  ts_gtrefclk = PERIOD TIMEGRP "gtrefclk" 8 | MINPERIOD   |     6.462ns|     1.538ns|       0|           0
+   ns HIGH 50%                              |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_tx_fifo_wr_to_rd = MAXDELAY FROM TIMEG | SETUP       |     6.809ns|     0.991ns|       0|           0
+  RP "tx_fifo_wr_to_rd" TO TIMEGRP          | HOLD        |     0.386ns|            |       0|           0
+  "userclk2" 7.8 ns DATAPATHONLY            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_tx_fifo_rd_to_wr = MAXDELAY FROM TIMEG | SETUP       |     6.859ns|     0.941ns|       0|           0
+  RP "tx_fifo_rd_to_wr" TO TIMEGRP          | HOLD        |     0.205ns|            |       0|           0
+  "userclk2" 7.8 ns DATAPATHONLY            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_txoutclk = PERIOD TIMEGRP "txoutclk" 1 | MINLOWPULSE |    10.000ns|     6.000ns|       0|           0
+  6 ns HIGH 50%                             |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_rx_fifo_wr_to_rd = MAXDELAY FROM TIMEG | SETUP       |     6.957ns|     0.843ns|       0|           0
+  RP "rx_fifo_wr_to_rd" TO TIMEGRP          | HOLD        |     0.339ns|            |       0|           0
+  "userclk2" 7.8 ns DATAPATHONLY            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_tx_fifo_addr = MAXDELAY FROM TIMEGRP " | SETUP       |     9.122ns|     0.878ns|       0|           0
+  tx_addr_rd" TO TIMEGRP "tx_addr_wr"       | HOLD        |     0.180ns|            |       0|           0
+     10 ns                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  ts_rx_skew_control2 = MAXDELAY FROM TIMEG | SETUP       |    13.354ns|     0.646ns|       0|           0
+  RP "rd_graycode" TO TIMEGRP "FFS" 14      | HOLD        |     0.244ns|            |       0|           0
+      ns DATAPATHONLY                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  ts_rx_skew_control1 = MAXDELAY FROM TIMEG | N/A         |         N/A|         N/A|     N/A|         N/A
+  RP "wr_graycode" TO TIMEGRP "FFS" 14      |             |            |            |        |            
+      ns DATAPATHONLY                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_pause_dsr_path" TIG              | SETUP       |         N/A|     2.790ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  TS_stats_host_to_ref = MAXDELAY FROM TIME | N/A         |         N/A|         N/A|     N/A|         N/A
+  GRP "stats_host_to_ref" TO TIMEGRP        |             |            |            |        |            
+    "userclk2" 8 ns DATAPATHONLY            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "ts_resync_flops_path" TIG           | MAXDELAY    |         N/A|     9.680ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_txoutclk
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_txoutclk                    |     16.000ns|      6.000ns|     13.712ns|            0|            0|            0|        39782|
+| TS_clkout1                    |      8.000ns|      6.856ns|          N/A|            0|            0|        30225|            0|
+| TS_clkout0                    |     16.000ns|     10.226ns|          N/A|            0|            0|         9557|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 mins 19 secs 
+Total CPU time to PAR completion (all processors): 1 mins 26 secs 
+
+Peak Memory Usage:  1286 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 2
+
+Writing design to file tri_mode_eth_mac_v5_2_example_design.ncd
+
+
+
+PAR done!

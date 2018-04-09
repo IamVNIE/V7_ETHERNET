@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="248" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pipe.v" Line 144: Block identifier is required on this block
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="248" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 188: Block identifier is required on this block
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="248" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_check.v" Line 241: Block identifier is required on this block
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="248" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_swap.v" Line 273: Block identifier is required on this block
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_example_design.v" Line 553: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_block.v" Line 244: Assignment to <arg fmt="%s" index="1">glbl_rst</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1368" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_decoder.v" Line 218: Parameter <arg fmt="%s" index="1">DECODE_BITS</arg> depends on uninitialized variable
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\counter_f.v" Line 145: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\counter_f.v" Line 149: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 193: Assignment to <arg fmt="%s" index="1">tx_byte_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 195: Assignment to <arg fmt="%s" index="1">tx_excessive_collision</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 196: Assignment to <arg fmt="%s" index="1">tx_late_collision</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 197: Assignment to <arg fmt="%s" index="1">tx_excessive_deferral</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 198: Assignment to <arg fmt="%s" index="1">tx_deferred</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 225: Assignment to <arg fmt="%s" index="1">rx_byte_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 228: Assignment to <arg fmt="%s" index="1">rx_out_of_bounds_error</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 279: Assignment to <arg fmt="%s" index="1">rx_bad_frame_reg</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\vector_decode.v" Line 572: Assignment to <arg fmt="%s" index="1">single_attempt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_mod.v" Line 56: Empty module &lt;<arg fmt="%s" index="1">tri_mode_eth_mac_v5_2</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tx_client_fifo.v" Line 1653: Assignment to <arg fmt="%s" index="1">rd_bram_l_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tx_client_fifo.v" Line 1683: Assignment to <arg fmt="%s" index="1">rd_bram_u_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\sgmii_adapt.v" Line 183: Port <arg fmt="%s" index="1">enable</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\sgmii_adapt.v" Line 183: Input port <arg fmt="%s" index="1">enable</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v" Line 181: Assignment to <arg fmt="%s" index="1">txreset_int</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard.v" Line 165: Assignment to <arg fmt="%s" index="1">tied_to_ground_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard.v" Line 166: Assignment to <arg fmt="%s" index="1">tied_to_ground_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard.v" Line 167: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard.v" Line 168: Assignment to <arg fmt="%s" index="1">tied_to_vcc_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard_gt.v" Line 180: Assignment to <arg fmt="%s" index="1">tied_to_vcc_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard_gt.v" Line 505: Assignment to <arg fmt="%s" index="1">rxchariscomma_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard_gt.v" Line 506: Assignment to <arg fmt="%s" index="1">rxcharisk_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard_gt.v" Line 507: Assignment to <arg fmt="%s" index="1">rxdisperr_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard_gt.v" Line 508: Assignment to <arg fmt="%s" index="1">rxnotintable_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gtwizard_gt.v" Line 541: Net &lt;<arg fmt="%s" index="1">RXPCSRSET</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v" Line 338: Assignment to <arg fmt="%s" index="1">rxbufstatus</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v" Line 340: Assignment to <arg fmt="%s" index="1">resetdone_rx</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v" Line 363: Assignment to <arg fmt="%s" index="1">resetdone_tx</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gig_eth_pcs_pma_v11_2_block.v" Line 288: Assignment to <arg fmt="%s" index="1">plllock</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 133: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 147: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 161: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 180: Result of <arg fmt="%d" index="1">13</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 228: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 261: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_gen.v" Line 265: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_check.v" Line 119: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_check.v" Line 205: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_check.v" Line 223: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_check.v" Line 231: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_check.v" Line 233: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pat_check.v" Line 376: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pipe.v" Line 98: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pipe.v" Line 110: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi_pipe.v" Line 115: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_swap.v" Line 217: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_swap.v" Line 245: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_swap.v" Line 247: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_swap.v" Line 367: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_swap.v" Line 415: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\address_swap.v" Line 417: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_example_design.v</arg>&quot; line <arg fmt="%s" index="2">941</arg>: Output port &lt;<arg fmt="%s" index="3">sgmii_clk_r</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core_wrapper</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_example_design.v</arg>&quot; line <arg fmt="%s" index="2">941</arg>: Output port &lt;<arg fmt="%s" index="3">sgmii_clk_f</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core_wrapper</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_example_design.v</arg>&quot; line <arg fmt="%s" index="2">941</arg>: Output port &lt;<arg fmt="%s" index="3">gmii_isolate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core_wrapper</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_example_design.v</arg>&quot; line <arg fmt="%s" index="2">941</arg>: Output port &lt;<arg fmt="%s" index="3">an_interrupt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core_wrapper</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">rx_statistics_valid</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">tx_statistics_valid</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">tx_statistics_vector</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="warning" file="Xst" num="3136" delta="new" >Property &quot;<arg fmt="%s" index="1">SHREG_EXTRACT</arg>&quot; (value &quot;<arg fmt="%s" index="2">NO</arg>&quot;) has not been applied on proper HDL object.
+</msg>
+
+<msg type="warning" file="Xst" num="3136" delta="new" >Property &quot;<arg fmt="%s" index="1">SHREG_EXTRACT</arg>&quot; (value &quot;<arg fmt="%s" index="2">NO</arg>&quot;) has not been applied on proper HDL object.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">s_axi_bresp</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">s_axi_rresp</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_fifo_block.v</arg>&quot; line <arg fmt="%s" index="2">318</arg>: Output port &lt;<arg fmt="%s" index="3">tx_fifo_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">user_side_FIFO</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_fifo_block.v</arg>&quot; line <arg fmt="%s" index="2">318</arg>: Output port &lt;<arg fmt="%s" index="3">rx_fifo_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">user_side_FIFO</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_fifo_block.v</arg>&quot; line <arg fmt="%s" index="2">318</arg>: Output port &lt;<arg fmt="%s" index="3">tx_fifo_overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">user_side_FIFO</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_fifo_block.v</arg>&quot; line <arg fmt="%s" index="2">318</arg>: Output port &lt;<arg fmt="%s" index="3">rx_axis_mac_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">user_side_FIFO</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_fifo_block.v</arg>&quot; line <arg fmt="%s" index="2">318</arg>: Output port &lt;<arg fmt="%s" index="3">rx_fifo_overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">user_side_FIFO</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tri_mode_eth_mac_v5_2_block.v</arg>&quot; line <arg fmt="%s" index="2">324</arg>: Output port &lt;<arg fmt="%s" index="3">mac_irq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">trimac_core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi4_lite_ipif_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">143</arg>: Output port &lt;<arg fmt="%s" index="3">Bus2IP_BE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">axi_lite_top</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\axi4_lite_ipif_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">143</arg>: Output port &lt;<arg fmt="%s" index="3">Bus2IP_RNW</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">axi_lite_top</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">S_AXI_WSTRB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\slave_attachment.v</arg>&quot; line <arg fmt="%s" index="2">570</arg>: Output port &lt;<arg fmt="%s" index="3">Count_Out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_PHASE_WDT.I_DPTO_COUNTER</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Address_In_Erly</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Bus_RNW</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">tx_collision</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">tx_retransmit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tx_client_fifo.v</arg>&quot; line <arg fmt="%s" index="2">1652</arg>: Output port &lt;<arg fmt="%s" index="3">DOA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramgen_l</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\tx_client_fifo.v</arg>&quot; line <arg fmt="%s" index="2">1682</arg>: Output port &lt;<arg fmt="%s" index="3">DOA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramgen_u</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\rx_client_fifo.v</arg>&quot; line <arg fmt="%s" index="2">917</arg>: Output port &lt;<arg fmt="%s" index="3">DOA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramgen_l</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\rx_client_fifo.v</arg>&quot; line <arg fmt="%s" index="2">947</arg>: Output port &lt;<arg fmt="%s" index="3">DOA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramgen_u</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gig_eth_pcs_pma_v11_2_block.v</arg>&quot; line <arg fmt="%s" index="2">266</arg>: Output port &lt;<arg fmt="%s" index="3">plllkdet</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">transceiver_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\gig_eth_pcs_pma_v11_2_block.v</arg>&quot; line <arg fmt="%s" index="2">266</arg>: Output port &lt;<arg fmt="%s" index="3">rxelecidle</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">transceiver_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">loopback</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">177</arg>: Output port &lt;<arg fmt="%s" index="3">reset_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">reclock_txreset</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_RXBUFSTATUS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_CPLLFBCLKLOST_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_CPLLREFCLKLOST_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_EYESCANDATAERROR_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_RXCDRLOCK_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_RXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_TXOUTCLKFABRIC_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_TXOUTCLKPCS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\VNIE-RESEARCH\Google Drive\v-7 Interface Git\Project_Files\Ethernet_Try1\transceiver.v</arg>&quot; line <arg fmt="%s" index="2">298</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_TXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtwizard_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">RXPCSRESET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RXPCSRSET</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Design Linking license for component &lt;tri_mode_eth_mac&gt; found. This license does not allow you to generate bitstreams for designs that incorporate this component. You may generate functional simulation netlists, but you may not evaluate this component in hardware.
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mdio_reg_addr_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi_lite_controller</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mdio_reg_addr_4&gt; &lt;mdio_reg_addr_5&gt; &lt;mdio_reg_addr_6&gt; &lt;mdio_reg_addr_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">rx_fifo_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;wr_rd_addr_1&gt; &lt;wr_rd_addr_2&gt; &lt;wr_rd_addr_3&gt; &lt;wr_rd_addr_4&gt; &lt;wr_rd_addr_5&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">mdio_reg_addr_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_controller</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">tx_axis_mac_tuser</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_fifo_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_fifo_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer_inst</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">wr_addr_diff_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tx_fifo_i</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">wr_addr_diff_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tx_fifo_i</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">wr_addr_diff_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_fifo_i</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">wr_addr_diff_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_fifo_i</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">mdio_reg_addr</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">4</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">axi_lite_sm</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rd_data_reg_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tx_statistics_vector_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">rx_statistics_vector_reg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vector_decode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">mdio_reg_addr_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">tx_axis_mac_tuser</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_client_fifo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_client_fifo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_client_fifo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_client_fifo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_client_fifo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_client_fifo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_rd_addr_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_client_fifo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">gtx_reset_gen</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">gtx_reset_gen</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">chk_reset_gen</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">chk_reset_gen</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">gen_sync_reset</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">gen_sync_reset</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">axi_lite_reset_gen</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">axi_lite_reset_gen</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">glbl_reset_gen</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">glbl_reset_gen</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">core_wrapper/sgmii_logic/resync_speed_100</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">core_wrapper/sgmii_logic/resync_speed_100</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">core_wrapper/sgmii_logic/resync_speed_10_100</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">core_wrapper/sgmii_logic/resync_speed_10_100</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">sync_rd_addr_tog</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">sync_rd_addr_tog</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">resync_wr_store_frame_tog</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">resync_wr_store_frame_tog</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">resync_wr_frame_in_fifo</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">resync_wr_frame_in_fifo</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">resync_rd_txfer_tog</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">resync_rd_txfer_tog</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">resync_rd_tran_frame_tog</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">resync_rd_tran_frame_tog</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_wr_addrgray[5].sync_wr_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_wr_addrgray[5].sync_wr_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_wr_addrgray[4].sync_wr_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_wr_addrgray[4].sync_wr_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_wr_addrgray[3].sync_wr_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_wr_addrgray[3].sync_wr_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_wr_addrgray[2].sync_wr_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_wr_addrgray[2].sync_wr_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_wr_addrgray[1].sync_wr_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_wr_addrgray[1].sync_wr_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_wr_addrgray[0].sync_wr_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_wr_addrgray[0].sync_wr_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_rd_addrgray[5].sync_rd_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_rd_addrgray[5].sync_rd_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_rd_addrgray[4].sync_rd_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_rd_addrgray[4].sync_rd_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_rd_addrgray[3].sync_rd_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_rd_addrgray[3].sync_rd_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_rd_addrgray[2].sync_rd_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_rd_addrgray[2].sync_rd_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_rd_addrgray[1].sync_rd_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_rd_addrgray[1].sync_rd_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="info" file="Xst" num="1730" delta="new" >XST has found some RLOC properties in element <arg fmt="%s" index="1">reclock_rd_addrgray[0].sync_rd_addrgray</arg> which is instantiated several times. To handle this constraint XST will add the property &quot;hu_set <arg fmt="%s" index="2">reclock_rd_addrgray[0].sync_rd_addrgray</arg>&quot; on each element with RLOC.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_awaddr_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">addr_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">addr_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">addr_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">addr_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">addr_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">addr_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_araddr_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">axi_lite_sm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">wr_data_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_32</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_33</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_34</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_35</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_34</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_33</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_32</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">wr_data_reg_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rx_elastic_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">wr_occupancy_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_elastic_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">s_axi_bresp_reg_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">s_axi_rresp_reg_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rd_addr_reload</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">rx_client_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;name&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus2ip_addr_reg_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">slave_attachment</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2716" delta="new" >In unit <arg fmt="%s" index="1">tri_mode_eth_mac_v5_2_example_design</arg>, both signals <arg fmt="%s" index="2">s_axi_awaddr&lt;31&gt;</arg> and <arg fmt="%s" index="3">s_axi_awaddr&lt;30&gt;</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">s_axi_awaddr&lt;30&gt;</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">core_wrapper/sgmii_logic/clock_generation/sgmii_clk_f</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">core_wrapper/sgmii_logic/clock_generation/sgmii_clk_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">core_wrapper/sgmii_logic/clock_generation/speed_is_10_100_fall</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">core_wrapper/sgmii_logic/clock_generation/speed_is_100_fall</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">core_wrapper/sgmii_logic/clock_generation/reset_fall</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_addr_diff_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_addr_diff_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_fifo_status_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_fifo_status_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_fifo_status_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_fifo_status_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_addr_diff_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_addr_diff_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_fifo_status_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_fifo_status_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_fifo_status_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_fifo_status_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">trimac_fifo_block/user_side_FIFO/rx_fifo_i/rx_axis_mac_tready</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">basic_pat_gen/address_swap/wr_state_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;basic_pat_gen/address_swap/fsmfake11_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">basic_pat_gen/address_swap/wr_state_FSM_FFd2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;basic_pat_gen/address_swap/fsmfake11_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_addr_gray_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">tri_mode_eth_mac_v5_2_example_design</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_addr_plus1_5&gt; </arg>
+</msg>
+
+</messages>
+

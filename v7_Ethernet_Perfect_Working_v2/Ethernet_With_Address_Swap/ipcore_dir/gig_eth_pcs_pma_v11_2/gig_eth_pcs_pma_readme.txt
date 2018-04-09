@@ -1,0 +1,231 @@
+                Core name: Xilinx LogiCORE Ethernet 1000BASE-X PCS/PMA or SGMII
+                Version: 11.2
+                Release: 13.4
+                Release Date: January 18, 2012
+
+
+================================================================================
+
+This document contains the following sections:
+
+1. Introduction
+2. New Features
+3. Supported Devices
+4. Resolved Issues
+5. Known Issues
+6. Technical Support
+7. Other Information (optional)
+8. Core Release History
+9. Legal Disclaimer
+
+================================================================================
+
+
+1. INTRODUCTION
+
+For installation instructions for this release, please go to:
+
+  http://www.xilinx.com/ipcenter/coregen/ip_update_install_instructions.htm
+
+For system requirements:
+
+   http://www.xilinx.com/ipcenter/coregen/ip_update_system_requirements.htm
+
+This file contains release notes for the Xilinx LogiCORE IP Ethernet 
+1000BASE-X PCS/PMA or SGMII v11.2 solution. For the latest core updates, see 
+the product page at:
+
+   http://www.xilinx.com/products/ipcenter/DO-DI-GMIITO1GBSXPCS.htm
+
+
+2. NEW FEATURES
+
+  - ISE 13.4 software support
+  - Additional Configuration Vector Interface
+
+
+3. SUPPORTED DEVICES
+ 
+The following device families are supported by the core for this release.
+
+   
+Virtex-7
+
+Kintex-7
+
+Virtex-6 XC CXT/LXT/SXT/HXT
+Virtex-6 XQ LXT/SXT                                                       
+Virtex-6 -1L XC LXT/SXT 
+
+Spartan-6 XC LX/LXT 
+Spartan-6 XQ LX/LXT       
+
+Virtex-5 XC LX/LXT/SXT/TXT/FXT
+Virtex-5 XQ LX/LXT/SXT/FXT                                                
+   
+Virtex-4 XC LX/SX/FX
+
+Spartan-3 XC
+Spartan-3A XC 3A DSP / 3AN                                    
+Spartan-3E XC                                        
+
+
+4. RESOLVED ISSUES
+
+  1> Updating of Transceivers
+
+  Description: Updated the GTX for the V7 and K7 families with GTX 
+  generated from 7 Series FPGA Transceiver Wizard v1.6
+
+  AR: 42672
+
+
+  2> Updating of Constraints for S6 familiy
+
+  Description: Updated the TBI setup and hold analysis constraints for the
+  Spartan-6 family to enable ISE to correctly report the static timing 
+  results.
+
+  CR: 631898
+  AR: 36961
+
+
+  3> Updating CPLLREFCLKSEL
+
+  Description: Updated CPLLREFCLKSEL from "000" to "001" to select
+  GTREFCLK0.
+
+  CR: 589773
+  AR: 42842
+
+
+  4> Un-LOCed pins in the core
+  
+  Description: This issue was seen starting 13.2 software on any pin that
+  was not assigned a location. Resolution involves adding 
+  "-g UnconstrainedPins:Allow" switch to Bitgen to ignore this error.
+
+  CR: 634745
+  AR: 43058
+
+
+  5> GMII_RX_ER not asserted on cable pull out
+
+  Description: GMII_RX_ER is now asserted is continues stream of not in 
+  tables and disparity errors are seen, GMII_RX_DV then goes low with GMII_ER.
+
+  CR: 617653
+  AR: 43421
+
+  
+  6> 7 Series GTX Transceivers - Reset Requirements Upon Configuration
+  
+  Description: CPLLRESET is generated after a minimum duration of 500ns.
+
+  CR: 631898
+  AR: 43482
+  
+
+
+5. KNOWN ISSUES
+
+The most recent information, including known issues, workarounds, and
+resolutions for this version is provided in the IP Release Notes Guide
+located at
+
+   www.xilinx.com/support/documentation/user_guides/xtp025.pdf
+
+
+6. TECHNICAL SUPPORT
+
+To obtain technical support, create a WebCase at www.xilinx.com/support.
+Questions are routed to a team with expertise using this product.
+
+Xilinx provides technical support for use of this product when used
+according to the guidelines described in the core documentation, and
+cannot guarantee timing, functionality, or support of this product for
+designs that do not follow specified guidelines.
+
+
+7. OTHER INFORMATION
+
+When a Device Specific transceiver is used, this core only supports
+Verilog LRM-IEEE 1364-2005 encryption-compliant simulators. See the User Guide.
+
+
+8. CORE RELEASE HISTORY
+
+Date        By            Version      Description
+================================================================================
+01/18/2012  Xilinx, Inc. 11.2          ISE 13.4 Support
+09/06/2011  Xilinx, Inc. 11.1 Rev 1    Patch release for ISE 13.1
+03/01/2011  Xilinx, Inc. 11.1          ISE 13.1  and Virtex-7 / Kintex-7 support
+07/30/2010  Xilinx, Inc. 10.5 Rev 1    Patch release for ISE 12.2
+07/23/2010  Xilinx, Inc. 10.5          ISE 12.2 support and Virtex-6 LVDS I/O
+04/19/2010  Xilinx, Inc. 10.4          Release for ISE 12.1
+03/09/2010  Xilinx, Inc. 10.3 Rev 1    Patch release for ISE 11.5
+09/16/2009  Xilinx, Inc. 10.3          11.3, Virtex-6 HXT and Lower Power support
+06/24/2009  Xilinx, Inc. 10.2          Release for ISE 11.2 and Spartan-6 support
+04/27/2009  Xilinx, Inc. 10.1          Release for ISE 11.1
+03/24/2008  Xilinx, Inc.  9.1          Release for ISE 10.1
+08/15/2007  Xilinx, Inc.  9.0          Release for 9.2i
+04/02/2007  Xilinx, Inc.  8.1 Rev 1    Spartan-3A DSP support
+03/05/2007  Xilinx, Inc.  8.1          Release for ISE 9.1i
+10/26/2006  Xilinx, Inc.  8.0          Release for Virtex-5 and Spartan-3A
+07/19/2006  Xilinx, Inc.  7.1          Release for ISE 8.2i
+05/22/2006  Xilinx, Inc.  7.0 Rev 1    Virtex-4 FX CES4 update
+01/18/2006  Xilinx, Inc.  7.0          Release for ISE 8.1i
+06/24/2005  Xilinx, Inc.  6.0 patch1   Patch release
+05/12/2005  Xilinx, Inc.  6.0          Release for ISE 7.1i
+09/30/2004  Xilinx, Inc.  5.0          Release for ISE 6.3i
+================================================================================
+
+
+9. LEGAL DISCLAIMER
+
+(c) Copyright 2004 - 2012 Xilinx, Inc. All rights reserved.
+
+This file contains confidential and proprietary information
+of Xilinx, Inc. and is protected under U.S. and
+international copyright and other intellectual property
+laws.
+
+DISCLAIMER
+This disclaimer is not a license and does not grant any
+rights to the materials distributed herewith. Except as
+otherwise provided in a valid license issued to you by
+Xilinx, and to the maximum extent permitted by applicable
+law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+(2) Xilinx shall not be liable (whether in contract or tort,
+including negligence, or under any other theory of
+liability) for any loss or damage of any kind or nature
+related to, arising under or in connection with these
+materials, including for any direct, or any indirect,
+special, incidental, or consequential loss or damage
+(including loss of data, profits, goodwill, or any type of
+loss or damage suffered as a result of any action brought
+by a third party) even if such damage or loss was
+reasonably foreseeable or Xilinx had been advised of the
+possibility of the same.
+
+CRITICAL APPLICATIONS
+Xilinx products are not designed or intended to be fail-
+safe, or for use in any application requiring fail-safe
+performance, such as life-support or safety devices or
+systems, Class III medical devices, nuclear facilities,
+applications related to the deployment of airbags, or any
+other applications that could lead to death, personal
+injury, or severe property or environmental damage
+(individually and collectively, "Critical
+Applications"). Customer assumes the sole risk and
+liability of any use of Xilinx products in Critical
+Applications, subject only to applicable laws and
+regulations governing limitations on product liability.
+
+THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+PART OF THIS FILE AT ALL TIMES.
+
